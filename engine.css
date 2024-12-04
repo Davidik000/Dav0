@@ -1,0 +1,111 @@
+.justify {
+    margin: 1em;
+    text-align: justify;
+    font-size: 22px;
+    text-indent: 20px;
+    font-family: 'Kantumruy';
+    line-height: 1.5;
+    background: white;
+    border: 2px solid black; 
+    border-radius: 8px;
+    padding: 19px;
+    box-sizing: border-box;
+    
+ }
+
+ body{
+    background: linear-gradient(grey, white ) fixed;
+ }
+
+ .imge{
+    transform: translateX(45px);
+    max-width: 530px;
+    min-height: auto;
+    border: 2px solid black;
+    position: sticky;
+    top: 30px;
+    left: 10px;
+   
+    
+   
+ }
+
+ .stroka{
+    font-size: 21px;
+    line-height: 1.7;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: white;
+    margin: 1em;
+ }
+
+.stroka2{
+   border:3px red solid;
+   width: 245px;
+   background: white;
+   text-indent: 20px;
+   box-sizing: border-box;
+   width: 300px;
+   height: 35px;
+}
+  
+ .text{
+    font-family: 'Kantumruy';
+    text-align: justify;
+    font-size: 22px;
+    line-height: 1.5;
+    padding: 20px; 
+    background: white;
+    border: 2px solid black; 
+    border-radius: 8px;
+    float:left;
+    font-size: 22px;
+    text-indent: 30px;  
+    margin: 1em;
+ }
+
+
+ .men{
+    float: left;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+ }
+
+
+ .center1{
+    text-align: right;
+    position: sticky;
+    top: 30px;
+    left: 20px;
+
+ }
+
+ .center2{
+    text-align: center;
+    font-size: 40px;
+
+ }
+
+
+ .center3{
+    text-align: center;
+    font-size: 40px;
+ }
+
+
+ .center4{
+    text-align: center;
+    font-size: 40px;
+ }
+
+
+ .link{
+    text-decoration: none;
+ }
+
+
+
+ 
