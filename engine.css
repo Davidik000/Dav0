@@ -24,10 +24,7 @@
     border: 2px solid black;
     position: sticky;
     top: 30px;
-    left: 10px;
-   
-    
-   
+    left: 10px; 
  }
 
  .stroka{
@@ -41,13 +38,24 @@
  }
 
 .stroka2{
-   border:3px red solid;
-   width: 245px;
+   border: 1rem red solid;
    background: white;
-   text-indent: 20px;
+   text-indent: 21px;
    box-sizing: border-box;
    width: 300px;
-   height: 35px;
+   height: 60px;
+}
+
+section{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   gap: 0.5em;
+
+}
+
+th{
+   font-size: 20px;
 }
   
  .text{
@@ -60,7 +68,6 @@
     border: 2px solid black; 
     border-radius: 8px;
     float:left;
-    font-size: 22px;
     text-indent: 30px;  
     margin: 1em;
  }
@@ -68,7 +75,6 @@
 
  .men{
     float: left;
-    font-size: 20px;
     position: relative;
     top: 20px;
     left: 20px;
@@ -78,27 +84,33 @@
  .center1{
     text-align: right;
     position: sticky;
-    top: 30px;
+    top: 20px;
     left: 20px;
+    font-size: 35px;
 
  }
 
  .center2{
     text-align: center;
     font-size: 40px;
-
+    padding: 4px;
+    background-color: red;
  }
 
 
  .center3{
     text-align: center;
     font-size: 40px;
+    background-color: red;
+    padding: 4px;
  }
 
 
  .center4{
     text-align: center;
     font-size: 40px;
+    background-color: red;
+    padding: 4px;
  }
 
 
