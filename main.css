@@ -1,0 +1,199 @@
+.link{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    border: 1px solid black;
+    padding: 9px;
+    border-radius: 5px;
+    background-color: skyblue;
+    font-family: Arial, sans-serif;
+    margin: 5px;
+    text-shadow: 1px 1px 2px white;
+    box-shadow: 1px 2px 4px 1px black;
+    transition: background-color 0.3s, color 0.3s;
+ }
+
+ input, select { 
+    font-family: Arial, sans-serif; 
+    font-size: 15px; 
+    padding: 5px;
+    margin-bottom: 12px;
+    border: 2px solid;
+}
+
+
+.bor{
+    border: 1px solid black;
+    padding: 7px;
+    font-family: Arial, sans-serif;
+    width: 140px;
+    height: 35px;
+    background-color: skyblue;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 4px;
+    color: black;
+    box-shadow: 1px 2px 4px 1px black;
+    text-shadow: 1px 2px 4px white;
+    transition: 1s color;
+}
+
+
+.ber{
+    border: 2px solid black;
+    width: 935px;
+    text-indent: 20px;
+    padding: 11px;
+    margin: 2px;
+    background-color: yellow;
+    color: black;
+    font-family: Arial, sans-serif;
+
+}
+
+.ber2{
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+
+
+button { 
+    display: inline-block; 
+    padding: 15px; 
+    background-color: greenyellow; 
+    color: black; 
+    border: none; 
+    border-radius: 6px; 
+    cursor: pointer; 
+    box-shadow: 1px 2px 4px 1px black;
+    width: 170px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 15px;
+}
+
+input::placeholder { 
+    color: grey; 
+    font-style: italic; 
+}
+
+input:required{
+    border: 2px solid orange;
+}
+
+
+li:nth-child(even) { color: black;}
+li:nth-child(odd) { color: orange;}
+
+li{
+    margin-bottom: 20px;
+}
+
+.radio-label { 
+    display: inline-block;
+    margin-right: 9px; 
+}
+
+ .radio { 
+    margin-right: 5px; 
+ }
+
+ .support-list { 
+    display: grid; 
+    grid-template-columns: 21% 20% ;
+    gap: 3px;
+    align-items: end; 
+} 
+
+.registration-form { 
+    display: inline-grid; 
+    grid-template-rows: 40% 40% 20%; 
+    gap: 7px;
+    align-content: center;
+    padding: 21px;
+
+}
+
+
+.loader{
+    height: auto; 
+}
+
+.cycle{
+    width: 150px; 
+    height: auto; 
+    animation: spin 4s forwards;
+    position: absolute;
+    left: 1000px;
+    top: 250px
+    
+}
+
+@keyframes spin { 
+    0% { transform: rotate(0deg); 
+    opacity: 1; 
+} 
+100% { transform: rotate(360deg); 
+    opacity: 0; 
+} }
+
+::selection { 
+    background: rosybrown; 
+    color: white; 
+}
+
+
+li {
+    
+    
+}
+
+
+
+
+
+
+ .link:focus, button:focus {
+    background-color: grey;
+ }
+
+ .link:hover{
+    background-color: greenyellow;
+    color: black;
+ }
+
+ .link:active, button:active{
+    background-color: blue;
+ }
+
+
+ button:visited{
+    background-color: rosybrown;
+ }
+
+ .link:active{
+    background-color: brown;
+ }
+
+ button:hover{
+    background-color: yellow;
+    color: black;
+ }
+
+
+ footer { 
+    text-align: center; 
+    padding: 4px; 
+    background-color: skyblue; 
+    color: black; 
+    position: absolute; 
+    bottom: 0; 
+    width: 100%; 
+}
+
+
+h1{
+    padding: 8px; 
+    background-color: skyblue; 
+    color: black; 
+    width: 100%; 
+}

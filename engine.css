@@ -18,13 +18,13 @@
  }
 
  .imge{
-    transform: translateX(45px);
+    transform: translateX(40px);
     max-width: 530px;
     min-height: auto;
     border: 2px solid black;
-    position: sticky;
-    top: 30px;
+    top: 10px;
     left: 10px; 
+    margin: 2px;
  }
 
  .stroka{
@@ -51,7 +51,17 @@ section{
    flex-direction: column;
    flex-wrap: wrap;
    gap: 0.5em;
+}
 
+.d{
+   flex-basis: 50px;
+   flex-grow: 1;
+   flex-shrink: 2;
+}
+
+.d1{
+   flex: 3 1 auto;
+   
 }
 
 th{
@@ -75,11 +85,22 @@ th{
 
  .men{
     float: left;
-    position: relative;
-    top: 20px;
-    left: 20px;
  }
 
+ .men2{
+   position: absolute;
+   top: 1050px;
+   right: 500px;
+   width: 550px;
+   height: auto;
+   border: 1px solid;
+   border-color: aliceblue;
+ }
+
+ .sign{
+   width: 70px;
+   height: auto;
+ }
 
  .center1{
     text-align: right;
@@ -87,6 +108,7 @@ th{
     top: 20px;
     left: 20px;
     font-size: 35px;
+    z-index: 1;
 
  }
 

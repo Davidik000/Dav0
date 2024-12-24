@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма регистрации</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <h1>Поддержка</h1>
+    <ol class="support-list">                                                                         
+        <li><a class="link" href="работа.html">Обзор Lada Granta Sport</a></li>
+        
+        <li><a class="link" href="mailto:gulovmihail1@gmail.com">gulovmihail1@gmail.com</a></li>
+        
+        <li><a class="link" href="tel:+79187251673">+7(918)725-1673</a></li>
+        
+        
+        <li class="bor">
+        <label>Понравился сайт?</label>
+    
+        <input type="radio" id="like_yes" name="like" class="radio">
+        <label for="like_yes" class="radio-label">Да</label>
+        
+        <input type="radio" id="like_no" name="like" class="radio">
+        <label for="like_no" class="radio-label">Нет</label>
+        </li>
+
+    </ol>
+
+<main>
+  
+<form action="https://httpbin.org/post" method="post" class="registration-form">
+
+<fieldset class="ber">
+    <legend class="ber2">Данные для регистрации</legend>
+    <label for="name">Имя:</label>
+    <input type="text" id="name" required placeholder="Иван">
+
+    <label for="password">Пароль:</label>
+    <input type="password" id="password" required placeholder="123">
+
+    <label for="date">Дата рождения:</label>
+    <input type="date" id="date" required>
+
+    <label for="gender">Пол:</label>
+    <select id="gender" name="gender" required>
+        <option value="male">Мужской</option>
+        <option value="female">Женский</option>
+        <option value="other">Другой</option>
+    </select>
+
+    <div class="loader">
+        <img src="spin.png" class="cycle">
+    </div>
+
+</fieldset>
+
+<fieldset class="ber">
+    <legend class="ber2">Контактные данные</legend>
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="@gmail.com">
+
+    <label for="phone">Телефон:</label>
+    <input type="tel" id="phone" required  placeholder="+7111-111-111">
+
+    <label for="contact_time">Удобный интервал для связи:</label>
+    <select id="contact_time" name="contact_time">
+        <option value="morning">Утро</option>
+        <option value="afternoon">День</option>
+        <option value="evening">Вечер</option>
+        <option value="night">Ночь</option>
+    </select>
+</fieldset>
+
+    
+    <button type="submit"  class="button">Зарегистрироваться</button>
+</form>
+</main>
+
+<br>
+
+<footer>
+    <p>--2024 David Corpyration--</p>
+</footer>
+</body>
+</html>

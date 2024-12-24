@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.gradient, .transform2d, .transform3d, .transition {
+    width: 200px;
+    height: 100px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+
+.linear-gradient {
+    background: linear-gradient(to right, red, yellow);
+}
+
+.radial-gradient {
+    background: radial-gradient(circle, red, yellow);
+}
+
+.conic-gradient {
+    background: conic-gradient(from 0deg, red, yellow);
+}
+
+.transform2d {
+    background-color: lightblue;
+    transition: transform 0.5s;
+}
+
+.transform2d.scale:hover {
+    transform: scale(1.5);
+}
+
+.transform2d.rotate:hover {
+    transform: rotate(45deg);
+}
+
+.transform3d {
+    background-color: lightgreen;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+}
+
+.transform3d.rotate3d:hover {
+    transform: rotate3d(1, 1, 0, 45deg);
+}
+
+.transform3d.translate3d:hover {
+    transform: translate3d(50px, 50px, 50px);
+}
+
+.transition {
+    background-color: lightcoral;
+    transition: background-color 0.5s, transform 0.5s;
+}
+
+.transition.example1:hover {
+    background-color: coral;
+    transform: scale(1.2);
+}
+
+.transition.example2:hover {
+    background-color: tomato;
+    transform: rotate(45deg);
+}
+
